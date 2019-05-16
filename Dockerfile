@@ -1,6 +1,6 @@
-FROM alpine:3.8
+FROM alpine:3.9
 RUN apk upgrade --no-cache
-RUN apk add haproxy=1.8.12-r1 \
+RUN apk add haproxy=1.9.7-r0 \
     --repository https://nl.alpinelinux.org/alpine/edge/main \
     --no-cache
 #VOLUME /etc/haproxy
