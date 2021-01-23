@@ -1,6 +1,6 @@
-FROM alpine:3.12.1
+FROM alpine:3.13.0
 RUN apk upgrade --no-cache
-RUN apk add haproxy=2.2.4-r1 \
+RUN apk add haproxy=2.2.8-r1 \
     --repository https://nl.alpinelinux.org/alpine/edge/main \
     --no-cache
 #VOLUME /etc/haproxy
